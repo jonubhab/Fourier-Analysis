@@ -2,8 +2,8 @@
 This project can be used to get the Fourier series of any curve in the complex plane.
 
 Files to be used:
-01_Scan.py
-02_Transform.py
+01_Scan.py,
+02_Transform.py,
 03_Fourier Arts.json
 
 Steps to use:-
@@ -28,7 +28,7 @@ Steps to use:-
 11) Slide l to visualize the Fourier transform.
 
 Example Usage:
-Folder: Heart
+Folder - Heart
 1) Curve.png : The input curve
 2) data.csv : Extracted points from curve
 3) cfx.txt : Coefficients of fourier series along x-axis
