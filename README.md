@@ -1,6 +1,9 @@
 # Fourier-Analysis
 This project can be used to get the Fourier series of any curve in the complex plane.
 
+Files to be used:
+
+
 Steps to use:-
 1) Create a folder and save the curve to be transformed.
 2) Use Scan.py to scan the points in the curve.
@@ -15,4 +18,15 @@ Steps to use:-
    Input: Folder Name
    Output: P = coefficients of the positive terms of the Fourier series.
            N = coefficients of the negative terms of the Fourier series.
-7) Copy the arrays P and N from the output 
+7) Copy the contents of 'Fourier Arts.json' and paste it in Desmos Graphing Calculator.
+   Or alternatively, open https://www.desmos.com/calculator/yvgav3i61q
+9) Copy the arrays P and N from the output and paste them in Fourier Arts graph in Desmos, replacing the default arrays P and N.
+10) Slide l to visualize the Fourier transform.
+
+Example Usage:
+Folder: Heart
+1) Curve.png : The input curve
+2) data.csv : Extracted points from curve
+3) cfx.txt : Coefficients of fourier series along x-axis
+4) cfy.txt : Coefficients of fourier series along y-axis
+5) Heart.mp4 : Visualization
